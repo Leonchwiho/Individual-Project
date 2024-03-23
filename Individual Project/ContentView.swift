@@ -147,13 +147,30 @@ struct ContentView: View {
 }
 
 struct HomePage: View {
+    
+    var rule = ["111", "222", "333", "444", "555"]
+    
     var body: some View {
         ZStack {
-            Image("")
+            Image("Golden Sentence")
+                .resizable()
+                .scaledToFit()
+            }
+        
+        NavigationView {
+            VStack(alignment: .leading) {
+                List {
+                    ForEach(rule, id: \.self) {rule in Text(rule)}
+                }
+                Spacer()
+            }
+            .navigationTitle("HK Unspoken Rule")
         }
-        .background(.black)
+        .preferredColorScheme(.dark)
+        
     }
 }
+
 #Preview {
     ContentView()
 }
