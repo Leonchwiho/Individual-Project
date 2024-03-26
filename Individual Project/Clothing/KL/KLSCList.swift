@@ -21,6 +21,7 @@ struct KLSCList: View {
         } detail: {
             Text("Select a Shopping centre")
         }
+        .preferredColorScheme(.dark)
     }
 }
 
