@@ -21,6 +21,9 @@
 		D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168EC2BB33B95000C3CEC /* KLDataModel.swift */; };
 		D67168EF2BB33CF3000C3CEC /* KLSCData.json in Resources */ = {isa = PBXBuildFile; fileRef = D67168EE2BB33CF3000C3CEC /* KLSCData.json */; };
 		D67168F12BB34805000C3CEC /* KLSCIRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F02BB34805000C3CEC /* KLSCIRow.swift */; };
+		D67168F32BB34A93000C3CEC /* KLSCDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F22BB34A93000C3CEC /* KLSCDetail.swift */; };
+		D67168F52BB34B47000C3CEC /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F42BB34B47000C3CEC /* RoundImage.swift */; };
+		D67168F72BB34C04000C3CEC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F62BB34C04000C3CEC /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		D67168EC2BB33B95000C3CEC /* KLDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDataModel.swift; sourceTree = "<group>"; };
 		D67168EE2BB33CF3000C3CEC /* KLSCData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLSCData.json; sourceTree = "<group>"; };
 		D67168F02BB34805000C3CEC /* KLSCIRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCIRow.swift; sourceTree = "<group>"; };
+		D67168F22BB34A93000C3CEC /* KLSCDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCDetail.swift; sourceTree = "<group>"; };
+		D67168F42BB34B47000C3CEC /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		D67168F62BB34C04000C3CEC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,9 +162,12 @@
 			isa = PBXGroup;
 			children = (
 				D67168EA2BB33A7B000C3CEC /* KLSCList.swift */,
-				D67168F02BB34805000C3CEC /* KLSCIRow.swift */,
 				D67168E82BB33918000C3CEC /* KLSC.swift */,
 				D67168EC2BB33B95000C3CEC /* KLDataModel.swift */,
+				D67168F02BB34805000C3CEC /* KLSCIRow.swift */,
+				D67168F42BB34B47000C3CEC /* RoundImage.swift */,
+				D67168F62BB34C04000C3CEC /* MapView.swift */,
+				D67168F22BB34A93000C3CEC /* KLSCDetail.swift */,
 				D67168EE2BB33CF3000C3CEC /* KLSCData.json */,
 			);
 			path = KL;
@@ -295,10 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67168F52BB34B47000C3CEC /* RoundImage.swift in Sources */,
 				D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */,
 				D67168EB2BB33A7B000C3CEC /* KLSCList.swift in Sources */,
+				D67168F72BB34C04000C3CEC /* MapView.swift in Sources */,
 				D67168E92BB33918000C3CEC /* KLSC.swift in Sources */,
 				D67168AC2BA9EC82000C3CEC /* ContentView.swift in Sources */,
+				D67168F32BB34A93000C3CEC /* KLSCDetail.swift in Sources */,
 				D67168AA2BA9EC81000C3CEC /* Individual_ProjectApp.swift in Sources */,
 				D67168D42BAED344000C3CEC /* ClothingView.swift in Sources */,
 				D67168D82BB00962000C3CEC /* HKIView.swift in Sources */,
