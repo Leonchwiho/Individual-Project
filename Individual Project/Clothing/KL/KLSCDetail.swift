@@ -39,9 +39,9 @@ struct KLSCDetail: View {
                 Divider()
 
 
-                Text("About Turtle Rock")
+                Text("About Kowloon City Plaza")
                     .font(.title2)
-                Text("Descriptive text goes here.")
+                Text("Descriptive...")
             }
             .padding()
 
