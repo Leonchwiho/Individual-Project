@@ -107,7 +107,7 @@ struct ContentView: View {
                 case 0:
                     HomePage()
                 case 1:
-                    HomePage()
+                    ClothingView()
                 case 2:
                     HomePage()
                 case 3:

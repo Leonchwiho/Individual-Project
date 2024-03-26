@@ -7,7 +7,7 @@
 
 import Foundation
 
-var 
+var klscs: [KLSC] = load("KLSCData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -32,4 +32,5 @@ func load<T: Decodable>(_ filename: String) -> T {
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
+    
 }

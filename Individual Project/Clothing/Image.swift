@@ -1,5 +1,5 @@
 //
-//  KImage.swift
+//  RoundImage.swift
 //  Individual Project
 //
 //  Created by chan yuk han on 26/3/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct KImage: View {
+struct RoundImage: View {
     var image : Image
     
     var body: some View {
@@ -22,5 +22,5 @@ struct KImage: View {
 }
 
 #Preview {
-    KImage(image: Image("KCP"))
+    RoundImage(image: Image("KCP"))
 }

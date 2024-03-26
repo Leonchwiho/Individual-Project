@@ -14,6 +14,13 @@
 		D67168BB2BA9EC86000C3CEC /* Individual_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168BA2BA9EC86000C3CEC /* Individual_ProjectTests.swift */; };
 		D67168C52BA9EC86000C3CEC /* Individual_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168C42BA9EC86000C3CEC /* Individual_ProjectUITests.swift */; };
 		D67168C72BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168C62BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift */; };
+		D67168D42BAED344000C3CEC /* ClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168D32BAED344000C3CEC /* ClothingView.swift */; };
+		D67168D82BB00962000C3CEC /* HKIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168D72BB00962000C3CEC /* HKIView.swift */; };
+		D67168E92BB33918000C3CEC /* KLSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168E82BB33918000C3CEC /* KLSC.swift */; };
+		D67168EB2BB33A7B000C3CEC /* KLSCList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168EA2BB33A7B000C3CEC /* KLSCList.swift */; };
+		D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168EC2BB33B95000C3CEC /* KLDataModel.swift */; };
+		D67168EF2BB33CF3000C3CEC /* KLSCData.json in Resources */ = {isa = PBXBuildFile; fileRef = D67168EE2BB33CF3000C3CEC /* KLSCData.json */; };
+		D67168F12BB34805000C3CEC /* KLSCIRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F02BB34805000C3CEC /* KLSCIRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		D67168C02BA9EC86000C3CEC /* Individual ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Individual ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67168C42BA9EC86000C3CEC /* Individual_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual_ProjectUITests.swift; sourceTree = "<group>"; };
 		D67168C62BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D67168D32BAED344000C3CEC /* ClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingView.swift; sourceTree = "<group>"; };
+		D67168D72BB00962000C3CEC /* HKIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKIView.swift; sourceTree = "<group>"; };
+		D67168E82BB33918000C3CEC /* KLSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSC.swift; sourceTree = "<group>"; };
+		D67168EA2BB33A7B000C3CEC /* KLSCList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCList.swift; sourceTree = "<group>"; };
+		D67168EC2BB33B95000C3CEC /* KLDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDataModel.swift; sourceTree = "<group>"; };
+		D67168EE2BB33CF3000C3CEC /* KLSCData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLSCData.json; sourceTree = "<group>"; };
+		D67168F02BB34805000C3CEC /* KLSCIRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCIRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				D67168A82BA9EC81000C3CEC /* Individual Project */,
-				D67168B92BA9EC86000C3CEC /* Individual ProjectTests */,
-				D67168C32BA9EC86000C3CEC /* Individual ProjectUITests */,
 				D67168A72BA9EC81000C3CEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,8 +108,11 @@
 			children = (
 				D67168A92BA9EC81000C3CEC /* Individual_ProjectApp.swift */,
 				D67168AB2BA9EC82000C3CEC /* ContentView.swift */,
+				D67168D52BAEDB73000C3CEC /* Clothing */,
 				D67168AD2BA9EC85000C3CEC /* Assets.xcassets */,
 				D67168AF2BA9EC85000C3CEC /* Preview Content */,
+				D67168B92BA9EC86000C3CEC /* Individual ProjectTests */,
+				D67168C32BA9EC86000C3CEC /* Individual ProjectUITests */,
 			);
 			path = "Individual Project";
 			sourceTree = "<group>";
@@ -125,6 +140,28 @@
 				D67168C62BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift */,
 			);
 			path = "Individual ProjectUITests";
+			sourceTree = "<group>";
+		};
+		D67168D52BAEDB73000C3CEC /* Clothing */ = {
+			isa = PBXGroup;
+			children = (
+				D67168D32BAED344000C3CEC /* ClothingView.swift */,
+				D67168E12BB32D3B000C3CEC /* KL */,
+				D67168D72BB00962000C3CEC /* HKIView.swift */,
+			);
+			path = Clothing;
+			sourceTree = "<group>";
+		};
+		D67168E12BB32D3B000C3CEC /* KL */ = {
+			isa = PBXGroup;
+			children = (
+				D67168EA2BB33A7B000C3CEC /* KLSCList.swift */,
+				D67168F02BB34805000C3CEC /* KLSCIRow.swift */,
+				D67168E82BB33918000C3CEC /* KLSC.swift */,
+				D67168EC2BB33B95000C3CEC /* KLDataModel.swift */,
+				D67168EE2BB33CF3000C3CEC /* KLSCData.json */,
+			);
+			path = KL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +270,7 @@
 			files = (
 				D67168B12BA9EC85000C3CEC /* Preview Assets.xcassets in Resources */,
 				D67168AE2BA9EC85000C3CEC /* Assets.xcassets in Resources */,
+				D67168EF2BB33CF3000C3CEC /* KLSCData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */,
+				D67168EB2BB33A7B000C3CEC /* KLSCList.swift in Sources */,
+				D67168E92BB33918000C3CEC /* KLSC.swift in Sources */,
 				D67168AC2BA9EC82000C3CEC /* ContentView.swift in Sources */,
 				D67168AA2BA9EC81000C3CEC /* Individual_ProjectApp.swift in Sources */,
+				D67168D42BAED344000C3CEC /* ClothingView.swift in Sources */,
+				D67168D82BB00962000C3CEC /* HKIView.swift in Sources */,
+				D67168F12BB34805000C3CEC /* KLSCIRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

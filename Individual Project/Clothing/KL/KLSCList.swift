@@ -9,8 +9,11 @@ import SwiftUI
 
 struct KLSCList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(klscs, id: \.id) { klsc in
+            KLSCIRow(klsc: klsc)
+        }
     }
+    
 }
 
 #Preview {

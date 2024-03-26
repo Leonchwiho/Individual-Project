@@ -13,12 +13,12 @@ struct ClothingView: View {
         TabView {
             
             HKIView().tabItem({
-                Text("Hong Kong Iskand")
+                Text("HKI")
             }).tag(0)
             
-            KView().tabItem({
-                Text("Kowloon")
-            }).tag(1)
+//            KLSCList(klsc: klscs[0]).tabItem({
+//                Text("KL")
+//            }).tag(1)
         }
         
     }

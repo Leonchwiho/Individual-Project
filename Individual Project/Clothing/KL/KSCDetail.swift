@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct KSCDetail: View {
+//    var ksc: KSC
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            MapView().frame(height: 300)
+                .edgesIgnoringSafeArea(.top)
+            RoundImage()
+            VStack(alignment: .leading) {
+                Text("test")
+                    .font.title
+                HStack {
+                    Text("test")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("test")
+                        .font(.subheadline)
+                }
+            }
+            .padding()
+        }
     }
 }
 
