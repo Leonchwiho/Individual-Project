@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ClothingView: View {
+    
     var body: some View {
 
         TabView {
@@ -16,9 +17,9 @@ struct ClothingView: View {
                 Text("HKI")
             }).tag(0)
             
-//            KLSCList(klsc: klscs[0]).tabItem({
-//                Text("KL")
-//            }).tag(1)
+            KLSCList().tabItem({
+                Text("KL")
+            }).tag(1)
         }
         
     }
