@@ -9,11 +9,19 @@ import SwiftUI
 
 struct KLSCList: View {
     var body: some View {
-        List(klscs, id: \.id) { klsc in
-            KLSCIRow(klsc: klsc)
+        NavigationSplitView {
+            List(klscs) { klsc in
+                NavigationLink {
+                    KLSCDetail(klsc: klsc)
+                } label: {
+                     KLSCIRow(klsc: klsc)
+                }
+            }
+            .navigationTitle("Kowloon Shoping mall")
+        } detail: {
+            Text("Select a Shopping centre")
         }
     }
-    
 }
 
 #Preview {

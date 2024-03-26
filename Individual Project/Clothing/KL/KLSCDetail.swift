@@ -12,43 +12,38 @@ struct KLSCDetail: View {
     var klsc: KLSC
     
     var body: some View {
-        VStack {
+        ScrollView {
             MapView(coordinate: klsc.locationCoordinate)
                 .frame(height: 300)
-
-
+            
             RoundImage(image: klsc.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
-
-
+            
             VStack(alignment: .leading) {
-                Text("Kowloon City Plaza")
+                Text(klsc.name)
                     .font(.title)
-
-
+                
                 HStack {
-                    Text("128 Carpenter Road, Kowloon City")
+                    Text(klsc.address)
                     Spacer()
-                    Text("Kowloon")
+                    Text(klsc.region)
                 }
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
-
-
+                
                 Divider()
-
-
-                Text("About Kowloon City Plaza")
+                
+                Text("About \(klsc.name)")
                     .font(.title2)
-                Text("Descriptive...")
+                Text(klsc.description)
             }
             .padding()
-
-
-            Spacer()
         }
+        .navigationTitle(klsc.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
+    
 }
 
 #Preview {
