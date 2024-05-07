@@ -148,7 +148,7 @@ struct ContentView: View {
 
 struct HomePage: View {
     
-    var rule = ["111", "222", "333", "444", "555"]
+    var rule = ["Cannot sit on the floor when traveling on the MTR and Bus routes.", "No public urination or defecation in public places", "Not to cinsume food not provided by the restaurant on the premises of the restaurant", "Don't jump the queue when you need to queue", "Don;t stand in the center of the road when taking pictures and don't disturb the passers-by"]
     
     var body: some View {
         ZStack {
