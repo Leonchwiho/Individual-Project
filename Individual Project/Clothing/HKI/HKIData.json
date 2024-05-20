@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Yue Xiu Plaza",
+        "address": "3 Ning Yuen Street, San Po Kong",
+        "region": "Hong Kong Island",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 22.333342,
+            "latitude": 114.1941954
+        },
+        "description": "Yue Xiu Plaza, one of Hong Kong's shopping malls and housing estates , is located in the west of San Po Kong, Kowloon . It was opened in 1995 . The lower level of the entire building is a shopping mall, and there are two buildings on the upper level. It was formerly the largest theater in Hong Kong : The Palace Theatre.",
+        "imageName": "YXP"
+    },
+    {
+        "name": "Pacific Place",
+        "address": "88 Queensway, Admiralty and 1–3 Queen's Road East, Wan Chai",
+        "region": "Hong Kong Island",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": 22.2772459,
+            "latitude": 114.1626556
+        },
+        "description": "Pacific Place is a complex of office towers and hotels and a shopping centre situated at 88 Queensway, Admiralty, Hong Kong. The latest phase, Three Pacific Place, is located at 1 Queen's Road East, Wan Chai. The four-level shopping centre is home to over 160 shops and boutiques and one major department store. The complex is also home to three five-star hotels, a boutique hotel, three office towers and 270 serviced apartments, all of which are pet friendly.",
+        "imageName": "PP"
+    },
+    {
+        "name": "LandMark,
+        "address": "15 Queen's Road Central, Central",
+        "region": "Hong Kong Island",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 22.2811864,
+            "latitude": 114.155567
+        },
+        "description": "Landmark is a commercial complex owned by Hongkong Land in Central, Hong Kong. It consists of three office towers: Gloucester Tower, Edinburgh Tower and York House. Its retail podium, Landmark Atrium, forms the core component of the LANDMARK shopping mall. The Landmark Mandarin Oriental Hotel is in the lower floors of Edinburgh Tower, directly linked to the retail floors of Landmark Atrium.",
+        "imageName": "LM"
+    },
+    {
+        "name": "Lee Tung Avenue",
+        "address": "200 Queen's Road East, Wanchai",
+        "region": "Hong Kong Island",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 22.2757455,
+            "latitude": 114.1716896
+        },
+        "description": "Lee Tung Avenue, formerly named Avenue Walk before its completion, is a shopping mall located at the base of Avenue Walk , 200 Queen's Road East, Wan Chai District, Hong Kong . The developer is Sino Land , Hopewell Properties and the Urban Renewal Authority , with Sino Land responsible for the mall management, the joint venture shares the net rental income in a 40:60 ratio. The mall opened to the public on November 28, 2015 , 8 years ago , and opened in 2016 The first quarter of the year officially opened.",
+        "imageName": "LTA"
+    },
+    {
+        "name": "Island Resort Mall",
+        "address": "28 Siu Sai Wan Road, Siu Sai Wan",
+        "region": "Hong Kong Island",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -153.849883,
+            "latitude": 60.641684
+        },
+        "description": "Island Resort Mall is one of Hong Kong's medium-sized shopping malls, located at the base of the Island Resort Mall in Siu Sai Wan , Hong Kong . It opened in 2001 (23 years ago) and is developed and managed by Sino Land . The shopping mall is three floors tall and houses a variety of shops and restaurants.The mall used to have a market called_Montmartre_on the promenade on Saturdays, Sundays and public holidays, with various handicrafts and art performances, but it has been cancelled.",
+        "imageName": "IRM"
+    }
+]
