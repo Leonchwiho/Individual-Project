@@ -14,10 +14,10 @@ struct HKIList: View {
                 NavigationLink {
                     HKIDetail(hki: hki)
                 } label: {
-                     HKIRow(hki: hki)
+                     HKIIRow(hki: hki)
                 }
             }
-            .navigationTitle("Kowloon Shoping mall")
+            .navigationTitle("HK Island Shoping mall")
         } detail: {
             Text("Select a Shopping centre")
         }

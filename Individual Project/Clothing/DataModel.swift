@@ -8,8 +8,9 @@
 import Foundation
 
 var hkis: [HKI] = load("HKIData.json")
+var klscs: [KLSC] = load("KLSCData.json")
 
-func Load<T: Decodable>(_ filename: String) -> T {
+func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
 

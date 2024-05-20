@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HKIRow: View {
+struct HKIIRow: View {
     var hki: HKI
     
     var body: some View {
@@ -25,7 +25,7 @@ struct HKIRow: View {
 
 #Preview {
     Group {
-        HKIRow(hki: hkis[0])
-        HKIRow(hki: hkis[1])
+        HKIIRow(hki: hkis[0])
+        HKIIRow(hki: hkis[1])
     }
 }

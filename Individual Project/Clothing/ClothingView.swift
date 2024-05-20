@@ -13,7 +13,7 @@ struct ClothingView: View {
 
         TabView {
             
-            HKIView().tabItem({
+            HKIList().tabItem({
                 Text("HKI")
             }).tag(0)
             

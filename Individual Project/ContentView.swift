@@ -115,7 +115,7 @@ struct ContentView: View {
                 case 4:
                     HomePage()
                 default:
-                    HomePage()
+                    ToiletView()
                 }
             }
         }
