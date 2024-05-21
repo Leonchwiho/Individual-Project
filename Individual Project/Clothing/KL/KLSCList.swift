@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct KLSCList: View {
+    
+    @State private var searchname = ""
+    
     var body: some View {
-        NavigationSplitView {
+        NavigationView {
             List(klscs) { klsc in
                 NavigationLink {
                     KLSCDetail(klsc: klsc)
@@ -18,12 +21,12 @@ struct KLSCList: View {
                 }
             }
             .navigationTitle("Kowloon Shoping mall")
-        } detail: {
-            Text("Select a Shopping centre")
+            .searchable(text: $searchname, prompt: "Search shopping mall")
         }
         .preferredColorScheme(.dark)
+        }
+        
     }
-}
 
 #Preview {
     KLSCList()
