@@ -1,16 +1,17 @@
 //
-//  ClothingView.swift
+//  FoodView.swift
 //  Individual Project
 //
-//  Created by chan yuk han on 23/3/2024.
+//  Created by chan yuk han on 21/5/2024.
 //
 
+import Foundation
 import SwiftUI
 
-struct ClothingView: View {
-    
-    var body: some View {
+struct FoodView: View {
 
+    var body: some View {
+        
         TabView {
             
 //            HKIList().tabItem({
@@ -26,5 +27,5 @@ struct ClothingView: View {
 }
 
 #Preview {
-    ClothingView()
+    FoodView()
 }

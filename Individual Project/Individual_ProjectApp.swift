@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Individual_ProjectApp: App {
+    @State private var locationManager = RouteLocationManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Destination.self)
+        .environment(locationManager)
     }
 }

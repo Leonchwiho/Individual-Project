@@ -49,7 +49,7 @@ struct ContentView: View {
             .frame(width: 150, height: 1)
             .background(Color.black)
             .padding(.vertical,30)
-        SideMenuListButton(buttonText: "Toilet", icon: "Toilet", page: 5)
+        SideMenuListButton(buttonText: "GPS", icon: "GPS", page: 5)
         
         Spacer()
     }
@@ -115,7 +115,7 @@ struct ContentView: View {
                 case 4:
                     HomePage()
                 default:
-                    ToiletView()
+                    GPSView()
                 }
             }
         }
@@ -135,7 +135,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
             }
             
-            Text(self.page == 0 ? "Home" : (self.page == 1 ? "Clothing" : (self.page == 2 ? "Food" : (self.page == 3 ? "Housing" : (self.page == 4 ? "Transportation" : "Toilet")))))
+            Text(self.page == 0 ? "Home" : (self.page == 1 ? "Clothing" : (self.page == 2 ? "Food" : (self.page == 3 ? "Housing" : (self.page == 4 ? "Transportation" : "GPS")))))
                 .font(.title)
                 .foregroundColor(.white)
             
