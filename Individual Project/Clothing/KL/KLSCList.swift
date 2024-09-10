@@ -17,16 +17,16 @@
 //                NavigationLink {
 //                    KLSCDetail(klsc: klsc)
 //                } label: {
-//                     KLSCIRow(klsc: klsc)
+//                    KLSCIRow(klsc: klsc)
 //                }
 //            }
 //            .navigationTitle("Kowloon Shoping mall")
 //            .searchable(text: $searchname, prompt: "Search shopping mall")
 //        }
 //        .preferredColorScheme(.dark)
-//        }
-//        
 //    }
+//    
+//}
 //
 //#Preview {
 //    KLSCList()

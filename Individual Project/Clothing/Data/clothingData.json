@@ -1,13 +1,83 @@
 [
     {
-        "name": "Yue Xiu Plaza",
-        "address": "3 Ning Yuen Street, San Po Kong",
-        "region": "Hong Kong Island",
+        "name": "Kowloon City Plaza",
+        "address": "128 Carpenter Road, Kowloon City",
+        "region": "Kowloon",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
         "coordinates": {
-            "longitude": 22.333342,
+            "longitude": 22.3309857,
+            "latitude": 114.1879624
+        },
+        "description": "Kowloon City Plaza is a shopping centre located at Kowloon City, Kowloon, Hong Kong. It was established in 1993, and it underwent a HK$100-million renovation from October 2005 to December 2006. The shopping centre re-opened on 26 January 2007.",
+        "imageName": "KCP"
+    },
+    {
+        "name": "New Kowloon Plaza",
+        "address": "38 Tai Kok Tsui Road, Tai Kok Tsui",
+        "region": "Kowloon",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": 22.3198319,
+            "latitude": 114.1576672
+        },
+        "description": "New Kowloon Plaza (English: New Kowloon Plaza ) is one of the medium-sized shopping malls in Yau Tsim Mong District , Hong Kong . It is located at No. 38 Tai Kok Tsui Road . The shopping mall is 2 floors high and 82,500 square feet. It was completed in 1989. Before Olympian City was built, it was the largest shopping mall in Tai Kok Tsui . The developer of New Kowloon Plaza is Sun Hung Kai Properties . Although the square is not close to the Olympic Station and Mong Kok Station , it is one of the earliest new commercial buildings. Although the name of New Kowloon Plaza contains the words (New Kowloon), its location does not fall within the scope of New Kowloon.",
+        "imageName": "NKP"
+    },
+    {
+        "name": "Festival Walk",
+        "address": "80 Tat Chee Avenue, Kowloon Tong",
+        "region": "Kowloon",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 22.3373859,
+            "latitude": 114.1718673
+        },
+        "description": "Festival Walk is a shopping centre in Kowloon Tong, Hong Kong developed jointly by Swire Properties and CITIC Pacific between 1993 and 1998. At the time of its opening in November 1998, it was the biggest shopping mall in Hong Kong. Festival Walk is acquired by Mapletree North Asia Commercial Trust (MNACT). There are also four floors of offices on top of the mall.",
+        "imageName": "FW"
+    },
+    {
+        "name": "Dragon Centre",
+        "address": "37K Yen Chow Street, Sham Shui Po District",
+        "region": "Kowloon",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 22.3310224,
+            "latitude": 114.1572453
+        },
+        "description": "Dragon Centre is a nine-storey shopping centre in the Sham Shui Po area of Kowloon, Hong Kong. It was the largest in West Kowloon until the Elements opened above the Kowloon MTR station.",
+        "imageName": "DC"
+    },
+    {
+        "name": "Telford Plaza",
+        "address": "33 Wai Yip Street, Kowloon Bay, Kwun Tong District",
+        "region": "Kowloon",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": 22.3222084,
+            "latitude": 114.2108421
+        },
+        "description": "Telford Plaza is a shopping mall in Kowloon Bay , Hong Kong , located below the MTR Headquarters Building , Hang Seng Center and Telford Gardens . Telford Plaza Properties is managed by the MTR Corporation . It was called Telford Mall from 1980 to '97, and Telford Plaza after 1997. It was divided into one phase and two phases. The first phase of the mall opened in 1980 and the second phase in 1997.",
+        "imageName": "TP"
+    },
+    {
+        "name": "Yue Xiu Plaza",
+        "address": "3 Ning Yuen Street, San Po Kong",
+        "region": "Hong Kong Island",
+        "id": 1006,
+        "isFeat     ured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 22.333643,
             "latitude": 114.1941954
         },
         "description": "Yue Xiu Plaza, one of Hong Kong's shopping malls and housing estates , is located in the west of San Po Kong, Kowloon . It was opened in 1995 . The lower level of the entire building is a shopping mall, and there are two buildings on the upper level. It was formerly the largest theater in Hong Kong : The Palace Theatre.",
@@ -17,7 +87,7 @@
         "name": "Pacific Place",
         "address": "88 Queensway, Admiralty and 1–3 Queen's Road East, Wan Chai",
         "region": "Hong Kong Island",
-        "id": 1002,
+        "id": 1007,
         "isFeatured": false,
         "isFavorite": false,
         "coordinates": {
@@ -31,7 +101,7 @@
         "name": "LandMark",
         "address": "15 Queen's Road Central, Central",
         "region": "Hong Kong Island",
-        "id": 1003,
+        "id": 1008,
         "isFeatured": false,
         "isFavorite": true,
         "coordinates": {
@@ -45,7 +115,7 @@
         "name": "Lee Tung Avenue",
         "address": "200 Queen's Road East, Wanchai",
         "region": "Hong Kong Island",
-        "id": 1004,
+        "id": 1009,
         "isFeatured": true,
         "isFavorite": true,
         "coordinates": {
@@ -59,84 +129,14 @@
         "name": "Island Resort Mall",
         "address": "28 Siu Sai Wan Road, Siu Sai Wan",
         "region": "Hong Kong Island",
-        "id": 1005,
+        "id": 1010,
         "isFeatured": false,
         "isFavorite": false,
         "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
+            "longitude": 22.2662309,
+            "latitude": 114.2483235
         },
         "description": "Island Resort Mall is one of Hong Kong's medium-sized shopping malls, located at the base of the Island Resort Mall in Siu Sai Wan , Hong Kong . It opened in 2001 (23 years ago) and is developed and managed by Sino Land . The shopping mall is three floors tall and houses a variety of shops and restaurants.The mall used to have a market called_Montmartre_on the promenade on Saturdays, Sundays and public holidays, with various handicrafts and art performances, but it has been cancelled.",
         "imageName": "IRM"
-    },
-    {
-        "name": "Kowloon City Plaza",
-        "address": "128 Carpenter Road, Kowloon City",
-        "region": "Kowloon",
-        "id": 1001,
-        "isFeatured": true,
-        "isFavorite": true,
-        "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
-        },
-        "description": "Kowloon City Plaza is a shopping centre located at Kowloon City, Kowloon, Hong Kong. It was established in 1993, and it underwent a HK$100-million renovation from October 2005 to December 2006. The shopping centre re-opened on 26 January 2007.",
-        "imageName": "KCP"
-    },
-    {
-        "name": "New Kowloon Plaza",
-        "address": "38 Tai Kok Tsui Road, Tai Kok Tsui",
-        "region": "Kowloon",
-        "id": 1002,
-        "isFeatured": false,
-        "isFavorite": false,
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "New Kowloon Plaza (English: New Kowloon Plaza ) is one of the medium-sized shopping malls in Yau Tsim Mong District , Hong Kong . It is located at No. 38 Tai Kok Tsui Road . The shopping mall is 2 floors high and 82,500 square feet. It was completed in 1989. Before Olympian City was built, it was the largest shopping mall in Tai Kok Tsui . The developer of New Kowloon Plaza is Sun Hung Kai Properties . Although the square is not close to the Olympic Station and Mong Kok Station , it is one of the earliest new commercial buildings. Although the name of New Kowloon Plaza contains the words (New Kowloon), its location does not fall within the scope of New Kowloon.",
-        "imageName": "NKP"
-    },
-    {
-        "name": "Festival Walk",
-        "address": "80 Tat Chee Avenue, Kowloon Tong",
-        "region": "Kowloon",
-        "id": 1003,
-        "isFeatured": false,
-        "isFavorite": true,
-        "coordinates": {
-            "longitude": -135.334571,
-            "latitude": 59.560551
-        },
-        "description": "Festival Walk is a shopping centre in Kowloon Tong, Hong Kong developed jointly by Swire Properties and CITIC Pacific between 1993 and 1998. At the time of its opening in November 1998, it was the biggest shopping mall in Hong Kong. Festival Walk is acquired by Mapletree North Asia Commercial Trust (MNACT). There are also four floors of offices on top of the mall.",
-        "imageName": "FW"
-    },
-    {
-        "name": "Dragon Centre",
-        "address": "37K Yen Chow Street, Sham Shui Po District",
-        "region": "Kowloon",
-        "id": 1004,
-        "isFeatured": true,
-        "isFavorite": true,
-        "coordinates": {
-            "longitude": -113.536248,
-            "latitude": 48.69423
-        },
-        "description": "Dragon Centre is a nine-storey shopping centre in the Sham Shui Po area of Kowloon, Hong Kong. It was the largest in West Kowloon until the Elements opened above the Kowloon MTR station.",
-        "imageName": "DC"
-    },
-    {
-        "name": "Telford Plaza",
-        "address": "33 Wai Yip Street, Kowloon Bay, Kwun Tong District",
-        "region": "Kowloon",
-        "id": 1005,
-        "isFeatured": false,
-        "isFavorite": false,
-        "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
-        },
-        "description": "Telford Plaza is a shopping mall in Kowloon Bay , Hong Kong , located below the MTR Headquarters Building , Hang Seng Center and Telford Gardens . Telford Plaza Properties is managed by the MTR Corporation . It was called Telford Mall from 1980 to '97, and Telford Plaza after 1997. It was divided into one phase and two phases. The first phase of the mall opened in 1980 and the second phase in 1997.",
-        "imageName": "TP"
     }
 ]

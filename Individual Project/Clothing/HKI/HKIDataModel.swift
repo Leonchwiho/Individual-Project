@@ -9,7 +9,7 @@
 //
 //var hkis: [HKI] = load("HKIData.json")
 //
-//func Load<T: Decodable>(_ filename: String) -> T {
+//func load<T: Decodable>(_ filename: String) -> T {
 //    let data: Data
 //
 //

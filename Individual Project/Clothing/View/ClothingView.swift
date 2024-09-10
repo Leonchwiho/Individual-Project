@@ -5,13 +5,13 @@
 //  Created by chan yuk han on 23/3/2024.
 //
 
-import SwiftUI
-
-struct ClothingView: View {
-    
-    var body: some View {
-
-        ClothingList()
+//import SwiftUI
+//
+//struct ClothingView: View {
+//    
+//    var body: some View {
+//
+//        ClothingList()
         
 //        TabView {
 //            
@@ -26,9 +26,9 @@ struct ClothingView: View {
 //            
 //        }
         
-    }
-}
-
-#Preview {
-    ClothingView()
-}
+//    }
+//}
+//
+//#Preview {
+//    ClothingView()
+//}
