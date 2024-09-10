@@ -19,15 +19,8 @@
 		D67168C52BA9EC86000C3CEC /* Individual_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168C42BA9EC86000C3CEC /* Individual_ProjectUITests.swift */; };
 		D67168C72BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168C62BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift */; };
 		D67168D42BAED344000C3CEC /* ClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168D32BAED344000C3CEC /* ClothingView.swift */; };
-		D67168E92BB33918000C3CEC /* KLSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168E82BB33918000C3CEC /* KLSC.swift */; };
-		D67168EB2BB33A7B000C3CEC /* KLSCList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168EA2BB33A7B000C3CEC /* KLSCList.swift */; };
-		D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168EC2BB33B95000C3CEC /* KLDataModel.swift */; };
-		D67168EF2BB33CF3000C3CEC /* KLSCData.json in Resources */ = {isa = PBXBuildFile; fileRef = D67168EE2BB33CF3000C3CEC /* KLSCData.json */; };
-		D67168F12BB34805000C3CEC /* KLSCIRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F02BB34805000C3CEC /* KLSCIRow.swift */; };
-		D67168F32BB34A93000C3CEC /* KLSCDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F22BB34A93000C3CEC /* KLSCDetail.swift */; };
 		D67168F52BB34B47000C3CEC /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F42BB34B47000C3CEC /* RoundImage.swift */; };
 		D67168F72BB34C04000C3CEC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F62BB34C04000C3CEC /* MapView.swift */; };
-		D679B0612C865E41004A64FA /* Food Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679B0602C865E41004A64FA /* Food Model.swift */; };
 		D679B0632C865EC9004A64FA /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679B0622C865EC9004A64FA /* FoodDetailView.swift */; };
 		D6AA1FEC2C8F895C0027C868 /* HousingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FEB2C8F895C0027C868 /* HousingView.swift */; };
 		D6AA1FF52C8F89BC0027C868 /* Housing Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FED2C8F89AC0027C868 /* Housing Data.swift */; };
@@ -52,12 +45,7 @@
 		D6B7F8572C7A730200C11841 /* RouteMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7F8562C7A730200C11841 /* RouteMapManager.swift */; };
 		D6B7F85C2C7A798B00C11841 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7F85B2C7A798B00C11841 /* Destination.swift */; };
 		D6B7F85E2C7A7A4400C11841 /* ToileLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7F85D2C7A7A4400C11841 /* ToileLocation.swift */; };
-		D6D63ABA2BEB545E00D176C4 /* HKIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D63AB92BEB545E00D176C4 /* HKIList.swift */; };
-		D6D63ABC2BEB548B00D176C4 /* HKI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D63ABB2BEB548B00D176C4 /* HKI.swift */; };
-		D6D63ABE2BEB54AF00D176C4 /* HKIDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D63ABD2BEB54AF00D176C4 /* HKIDataModel.swift */; };
-		D6D63AC02BEB54D500D176C4 /* HKIRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D63ABF2BEB54D500D176C4 /* HKIRow.swift */; };
-		D6D63AC22BEB550100D176C4 /* HKIData.json in Resources */ = {isa = PBXBuildFile; fileRef = D6D63AC12BEB550100D176C4 /* HKIData.json */; };
-		D6D63AC42BEB551900D176C4 /* HKIDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D63AC32BEB551900D176C4 /* HKIDetail.swift */; };
+		D6CEBC032C90CA9F00B6C59B /* Food Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CEBC022C90CA9F00B6C59B /* Food Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +69,7 @@
 		D62EF8262C7CF0D20094B1CB /* RouteLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteLocationManager.swift; sourceTree = "<group>"; };
 		D62EF8282C7CF5D90094B1CB /* RouteLocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteLocationDetailView.swift; sourceTree = "<group>"; };
 		D64DB0312BFB900500773931 /* ToiletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletView.swift; sourceTree = "<group>"; };
-		D64DB03C2BFCA43C00773931 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		D64DB03C2BFCA43C00773931 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodView.swift; path = ../FoodView.swift; sourceTree = "<group>"; };
 		D67168A62BA9EC81000C3CEC /* Individual Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Individual Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67168A92BA9EC81000C3CEC /* Individual_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual_ProjectApp.swift; sourceTree = "<group>"; };
 		D67168AB2BA9EC82000C3CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,15 +81,8 @@
 		D67168C42BA9EC86000C3CEC /* Individual_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual_ProjectUITests.swift; sourceTree = "<group>"; };
 		D67168C62BA9EC86000C3CEC /* Individual_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D67168D32BAED344000C3CEC /* ClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingView.swift; sourceTree = "<group>"; };
-		D67168E82BB33918000C3CEC /* KLSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSC.swift; sourceTree = "<group>"; };
-		D67168EA2BB33A7B000C3CEC /* KLSCList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCList.swift; sourceTree = "<group>"; };
-		D67168EC2BB33B95000C3CEC /* KLDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDataModel.swift; sourceTree = "<group>"; };
-		D67168EE2BB33CF3000C3CEC /* KLSCData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLSCData.json; sourceTree = "<group>"; };
-		D67168F02BB34805000C3CEC /* KLSCIRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCIRow.swift; sourceTree = "<group>"; };
-		D67168F22BB34A93000C3CEC /* KLSCDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCDetail.swift; sourceTree = "<group>"; };
 		D67168F42BB34B47000C3CEC /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
 		D67168F62BB34C04000C3CEC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		D679B0602C865E41004A64FA /* Food Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food Model.swift"; sourceTree = "<group>"; };
 		D679B0622C865EC9004A64FA /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 		D6AA1FEB2C8F895C0027C868 /* HousingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingView.swift; sourceTree = "<group>"; };
 		D6AA1FED2C8F89AC0027C868 /* Housing Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Housing Data.swift"; sourceTree = "<group>"; };
@@ -126,12 +107,7 @@
 		D6B7F8562C7A730200C11841 /* RouteMapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapManager.swift; sourceTree = "<group>"; };
 		D6B7F85B2C7A798B00C11841 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		D6B7F85D2C7A7A4400C11841 /* ToileLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToileLocation.swift; sourceTree = "<group>"; };
-		D6D63AB92BEB545E00D176C4 /* HKIList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKIList.swift; sourceTree = "<group>"; };
-		D6D63ABB2BEB548B00D176C4 /* HKI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKI.swift; sourceTree = "<group>"; };
-		D6D63ABD2BEB54AF00D176C4 /* HKIDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKIDataModel.swift; sourceTree = "<group>"; };
-		D6D63ABF2BEB54D500D176C4 /* HKIRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKIRow.swift; sourceTree = "<group>"; };
-		D6D63AC12BEB550100D176C4 /* HKIData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HKIData.json; sourceTree = "<group>"; };
-		D6D63AC32BEB551900D176C4 /* HKIDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKIDetail.swift; sourceTree = "<group>"; };
+		D6CEBC022C90CA9F00B6C59B /* Food Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Food Model.swift"; path = "Individual Project/Food/Model/Food Model.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,11 +147,9 @@
 		D64DB02E2BFB8CE500773931 /* GPS */ = {
 			isa = PBXGroup;
 			children = (
-				D6B7F8442C6B262F00C11841 /* GPSView.swift */,
-				D6B7F8462C6B277E00C11841 /* LocationView.swift */,
-				D64DB0312BFB900500773931 /* ToiletView.swift */,
-				D6B7F8542C7A723E00C11841 /* RouteMapView.swift */,
-				D62EF8282C7CF5D90094B1CB /* RouteLocationDetailView.swift */,
+				D6CEBC042C90CDF300B6C59B /* View */,
+				D6B7F8582C7A778500C11841 /* Model */,
+				D62EF8252C7CF0B20094B1CB /* Route Services */,
 			);
 			path = GPS;
 			sourceTree = "<group>";
@@ -183,10 +157,9 @@
 		D64DB0372BFBB81600773931 /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				D64DB03C2BFCA43C00773931 /* FoodView.swift */,
-				D679B0622C865EC9004A64FA /* FoodDetailView.swift */,
-				D679B0602C865E41004A64FA /* Food Model.swift */,
-				D6B7BDA42C879C1100E0FAD7 /* FoodSearch.swift */,
+				D6AA20762C90C92E0027C868 /* View */,
+				D6AA20772C90C94E0027C868 /* Model */,
+				D6CEBC012C90C9ED00B6C59B /* Service */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -196,11 +169,10 @@
 			children = (
 				D6AA1FEB2C8F895C0027C868 /* HousingView.swift */,
 				D6AA1FF22C8F89B70027C868 /* HousingViewModel.swift */,
-				D6AA20722C8FE0560027C868 /* HousingList */,
-				D6AA20742C8FE1250027C868 /* Data */,
-				D6AA1FF32C8F89BB0027C868 /* HousingListImageView.swift */,
 				D6AA1FF02C8F89B20027C868 /* HousingService.swift */,
 				D6AA1FF12C8F89B50027C868 /* Region.swift */,
+				D6AA20722C8FE0560027C868 /* HousingList */,
+				D6AA20742C8FE1250027C868 /* Data */,
 			);
 			path = Housing;
 			sourceTree = "<group>";
@@ -240,8 +212,6 @@
 				D64DB0382BFBB83000773931 /* Housing */,
 				D64DB0392BFBB84700773931 /* Transportation */,
 				D64DB02E2BFB8CE500773931 /* GPS */,
-				D6B7F8582C7A778500C11841 /* Model */,
-				D62EF8252C7CF0B20094B1CB /* Route Services */,
 				D67168AD2BA9EC85000C3CEC /* Assets.xcassets */,
 				D67168AF2BA9EC85000C3CEC /* Preview Content */,
 				D67168B92BA9EC86000C3CEC /* Individual ProjectTests */,
@@ -281,23 +251,8 @@
 				D6AA203A2C8FBA820027C868 /* View */,
 				D6AA203B2C8FBA920027C868 /* Model */,
 				D6AA203C2C8FBAA20027C868 /* Data */,
-				D6D63AB82BEB50DE00D176C4 /* HKI */,
-				D67168E12BB32D3B000C3CEC /* KL */,
 			);
 			path = Clothing;
-			sourceTree = "<group>";
-		};
-		D67168E12BB32D3B000C3CEC /* KL */ = {
-			isa = PBXGroup;
-			children = (
-				D67168EA2BB33A7B000C3CEC /* KLSCList.swift */,
-				D67168E82BB33918000C3CEC /* KLSC.swift */,
-				D67168EC2BB33B95000C3CEC /* KLDataModel.swift */,
-				D67168F02BB34805000C3CEC /* KLSCIRow.swift */,
-				D67168F22BB34A93000C3CEC /* KLSCDetail.swift */,
-				D67168EE2BB33CF3000C3CEC /* KLSCData.json */,
-			);
-			path = KL;
 			sourceTree = "<group>";
 		};
 		D6AA203A2C8FBA820027C868 /* View */ = {
@@ -358,10 +313,29 @@
 		D6AA20752C8FE2720027C868 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D6AA1FF32C8F89BB0027C868 /* HousingListImageView.swift */,
 				D6AA20702C8FDC630027C868 /* HousingListItemView.swift */,
 				D6AA1FEF2C8F89AF0027C868 /* HousingListDetailView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D6AA20762C90C92E0027C868 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D64DB03C2BFCA43C00773931 /* FoodView.swift */,
+				D679B0622C865EC9004A64FA /* FoodDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6AA20772C90C94E0027C868 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6CEBC022C90CA9F00B6C59B /* Food Model.swift */,
+			);
+			name = Model;
+			path = View/Model;
 			sourceTree = "<group>";
 		};
 		D6B7F8582C7A778500C11841 /* Model */ = {
@@ -374,17 +348,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D6D63AB82BEB50DE00D176C4 /* HKI */ = {
+		D6CEBC012C90C9ED00B6C59B /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				D6D63AB92BEB545E00D176C4 /* HKIList.swift */,
-				D6D63ABB2BEB548B00D176C4 /* HKI.swift */,
-				D6D63ABD2BEB54AF00D176C4 /* HKIDataModel.swift */,
-				D6D63ABF2BEB54D500D176C4 /* HKIRow.swift */,
-				D6D63AC32BEB551900D176C4 /* HKIDetail.swift */,
-				D6D63AC12BEB550100D176C4 /* HKIData.json */,
+				D6B7BDA42C879C1100E0FAD7 /* FoodSearch.swift */,
 			);
-			path = HKI;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D6CEBC042C90CDF300B6C59B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7F8442C6B262F00C11841 /* GPSView.swift */,
+				D6B7F8462C6B277E00C11841 /* LocationView.swift */,
+				D64DB0312BFB900500773931 /* ToiletView.swift */,
+				D6B7F8542C7A723E00C11841 /* RouteMapView.swift */,
+				D62EF8282C7CF5D90094B1CB /* RouteLocationDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,8 +475,6 @@
 				D67168B12BA9EC85000C3CEC /* Preview Assets.xcassets in Resources */,
 				D67168AE2BA9EC85000C3CEC /* Assets.xcassets in Resources */,
 				D6AA200B2C8F9EAC0027C868 /* clothingData.json in Resources */,
-				D6D63AC22BEB550100D176C4 /* HKIData.json in Resources */,
-				D67168EF2BB33CF3000C3CEC /* KLSCData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,17 +499,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D63ABC2BEB548B00D176C4 /* HKI.swift in Sources */,
 				D6B7BDA52C879C1100E0FAD7 /* FoodSearch.swift in Sources */,
 				D67168F52BB34B47000C3CEC /* RoundImage.swift in Sources */,
 				D6AA1FF82C8F89BC0027C868 /* HousingService.swift in Sources */,
-				D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */,
 				D6B7F8452C6B262F00C11841 /* GPSView.swift in Sources */,
-				D6D63ABE2BEB54AF00D176C4 /* HKIDataModel.swift in Sources */,
 				D6AA20712C8FDC630027C868 /* HousingListItemView.swift in Sources */,
-				D67168EB2BB33A7B000C3CEC /* KLSCList.swift in Sources */,
-				D6D63AC02BEB54D500D176C4 /* HKIRow.swift in Sources */,
-				D6D63AC42BEB551900D176C4 /* HKIDetail.swift in Sources */,
 				D6AA1FFB2C8F89BC0027C868 /* HousingListImageView.swift in Sources */,
 				D6B7F8572C7A730200C11841 /* RouteMapManager.swift in Sources */,
 				D6AA1FF72C8F89BC0027C868 /* HousingListDetailView.swift in Sources */,
@@ -540,6 +513,7 @@
 				D6AA20002C8F9CF60027C868 /* Clothing.swift in Sources */,
 				D6AA1FF52C8F89BC0027C868 /* Housing Data.swift in Sources */,
 				D6B7F85E2C7A7A4400C11841 /* ToileLocation.swift in Sources */,
+				D6CEBC032C90CA9F00B6C59B /* Food Model.swift in Sources */,
 				D64DB03D2BFCA43C00773931 /* FoodView.swift in Sources */,
 				D6AA1FF92C8F89BC0027C868 /* Region.swift in Sources */,
 				D6AA20042C8F9D760027C868 /* ClothingRow.swift in Sources */,
@@ -547,22 +521,17 @@
 				D67168F72BB34C04000C3CEC /* MapView.swift in Sources */,
 				D6AA20022C8F9D220027C868 /* ClothingDataModel.swift in Sources */,
 				D6AA1FFE2C8F9CBD0027C868 /* ClothingList.swift in Sources */,
-				D67168E92BB33918000C3CEC /* KLSC.swift in Sources */,
 				D62EF8292C7CF5D90094B1CB /* RouteLocationDetailView.swift in Sources */,
 				D67168AC2BA9EC82000C3CEC /* ContentView.swift in Sources */,
 				D62EF8272C7CF0D20094B1CB /* RouteLocationManager.swift in Sources */,
 				D6B7F8492C6B2EEF00C11841 /* Location Model.swift in Sources */,
-				D67168F32BB34A93000C3CEC /* KLSCDetail.swift in Sources */,
 				D6AA1FFA2C8F89BC0027C868 /* HousingViewModel.swift in Sources */,
 				D6AA1FEC2C8F895C0027C868 /* HousingView.swift in Sources */,
 				D6AA1FF62C8F89BC0027C868 /* List Model.swift in Sources */,
-				D6D63ABA2BEB545E00D176C4 /* HKIList.swift in Sources */,
 				D67168AA2BA9EC81000C3CEC /* Individual_ProjectApp.swift in Sources */,
-				D679B0612C865E41004A64FA /* Food Model.swift in Sources */,
 				D67168D42BAED344000C3CEC /* ClothingView.swift in Sources */,
 				D679B0632C865EC9004A64FA /* FoodDetailView.swift in Sources */,
 				D6B7F8472C6B277E00C11841 /* LocationView.swift in Sources */,
-				D67168F12BB34805000C3CEC /* KLSCIRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
