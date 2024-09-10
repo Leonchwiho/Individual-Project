@@ -107,11 +107,12 @@ struct ContentView: View {
                 case 0:
                     HomePage()
                 case 1:
-                    ClothingView()
+//                    ClothingView()
+                    ClothingList()
                 case 2:
-                    HomePage()
+                    FoodView()
                 case 3:
-                    HomePage()
+                    HousingView()
                 case 4:
                     HomePage()
                 default:
