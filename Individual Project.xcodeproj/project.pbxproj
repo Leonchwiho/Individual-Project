@@ -27,6 +27,24 @@
 		D67168F32BB34A93000C3CEC /* KLSCDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F22BB34A93000C3CEC /* KLSCDetail.swift */; };
 		D67168F52BB34B47000C3CEC /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F42BB34B47000C3CEC /* RoundImage.swift */; };
 		D67168F72BB34C04000C3CEC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67168F62BB34C04000C3CEC /* MapView.swift */; };
+		D679B0612C865E41004A64FA /* Food Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679B0602C865E41004A64FA /* Food Model.swift */; };
+		D679B0632C865EC9004A64FA /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679B0622C865EC9004A64FA /* FoodDetailView.swift */; };
+		D6AA1FEC2C8F895C0027C868 /* HousingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FEB2C8F895C0027C868 /* HousingView.swift */; };
+		D6AA1FF52C8F89BC0027C868 /* Housing Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FED2C8F89AC0027C868 /* Housing Data.swift */; };
+		D6AA1FF62C8F89BC0027C868 /* List Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FEE2C8F89AD0027C868 /* List Model.swift */; };
+		D6AA1FF72C8F89BC0027C868 /* HousingListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FEF2C8F89AF0027C868 /* HousingListDetailView.swift */; };
+		D6AA1FF82C8F89BC0027C868 /* HousingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FF02C8F89B20027C868 /* HousingService.swift */; };
+		D6AA1FF92C8F89BC0027C868 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FF12C8F89B50027C868 /* Region.swift */; };
+		D6AA1FFA2C8F89BC0027C868 /* HousingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FF22C8F89B70027C868 /* HousingViewModel.swift */; };
+		D6AA1FFB2C8F89BC0027C868 /* HousingListImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FF32C8F89BB0027C868 /* HousingListImageView.swift */; };
+		D6AA1FFE2C8F9CBD0027C868 /* ClothingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FFD2C8F9CBD0027C868 /* ClothingList.swift */; };
+		D6AA20002C8F9CF60027C868 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA1FFF2C8F9CF60027C868 /* Clothing.swift */; };
+		D6AA20022C8F9D220027C868 /* ClothingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA20012C8F9D220027C868 /* ClothingDataModel.swift */; };
+		D6AA20042C8F9D760027C868 /* ClothingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA20032C8F9D760027C868 /* ClothingRow.swift */; };
+		D6AA20062C8F9DE10027C868 /* ClothingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA20052C8F9DE10027C868 /* ClothingDetail.swift */; };
+		D6AA200B2C8F9EAC0027C868 /* clothingData.json in Resources */ = {isa = PBXBuildFile; fileRef = D6AA200A2C8F9EAC0027C868 /* clothingData.json */; };
+		D6AA20712C8FDC630027C868 /* HousingListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AA20702C8FDC630027C868 /* HousingListItemView.swift */; };
+		D6B7BDA52C879C1100E0FAD7 /* FoodSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7BDA42C879C1100E0FAD7 /* FoodSearch.swift */; };
 		D6B7F8452C6B262F00C11841 /* GPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7F8442C6B262F00C11841 /* GPSView.swift */; };
 		D6B7F8472C6B277E00C11841 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7F8462C6B277E00C11841 /* LocationView.swift */; };
 		D6B7F8492C6B2EEF00C11841 /* Location Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7F8482C6B2EEF00C11841 /* Location Model.swift */; };
@@ -81,8 +99,26 @@
 		D67168EE2BB33CF3000C3CEC /* KLSCData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KLSCData.json; sourceTree = "<group>"; };
 		D67168F02BB34805000C3CEC /* KLSCIRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCIRow.swift; sourceTree = "<group>"; };
 		D67168F22BB34A93000C3CEC /* KLSCDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLSCDetail.swift; sourceTree = "<group>"; };
-		D67168F42BB34B47000C3CEC /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundImage.swift; path = KL/RoundImage.swift; sourceTree = "<group>"; };
-		D67168F62BB34C04000C3CEC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = KL/MapView.swift; sourceTree = "<group>"; };
+		D67168F42BB34B47000C3CEC /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		D67168F62BB34C04000C3CEC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D679B0602C865E41004A64FA /* Food Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food Model.swift"; sourceTree = "<group>"; };
+		D679B0622C865EC9004A64FA /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		D6AA1FEB2C8F895C0027C868 /* HousingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingView.swift; sourceTree = "<group>"; };
+		D6AA1FED2C8F89AC0027C868 /* Housing Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Housing Data.swift"; sourceTree = "<group>"; };
+		D6AA1FEE2C8F89AD0027C868 /* List Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List Model.swift"; sourceTree = "<group>"; };
+		D6AA1FEF2C8F89AF0027C868 /* HousingListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingListDetailView.swift; sourceTree = "<group>"; };
+		D6AA1FF02C8F89B20027C868 /* HousingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingService.swift; sourceTree = "<group>"; };
+		D6AA1FF12C8F89B50027C868 /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		D6AA1FF22C8F89B70027C868 /* HousingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingViewModel.swift; sourceTree = "<group>"; };
+		D6AA1FF32C8F89BB0027C868 /* HousingListImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingListImageView.swift; sourceTree = "<group>"; };
+		D6AA1FFD2C8F9CBD0027C868 /* ClothingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingList.swift; sourceTree = "<group>"; };
+		D6AA1FFF2C8F9CF60027C868 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
+		D6AA20012C8F9D220027C868 /* ClothingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingDataModel.swift; sourceTree = "<group>"; };
+		D6AA20032C8F9D760027C868 /* ClothingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingRow.swift; sourceTree = "<group>"; };
+		D6AA20052C8F9DE10027C868 /* ClothingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingDetail.swift; sourceTree = "<group>"; };
+		D6AA200A2C8F9EAC0027C868 /* clothingData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clothingData.json; sourceTree = "<group>"; };
+		D6AA20702C8FDC630027C868 /* HousingListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingListItemView.swift; sourceTree = "<group>"; };
+		D6B7BDA42C879C1100E0FAD7 /* FoodSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearch.swift; sourceTree = "<group>"; };
 		D6B7F8442C6B262F00C11841 /* GPSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSView.swift; sourceTree = "<group>"; };
 		D6B7F8462C6B277E00C11841 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		D6B7F8482C6B2EEF00C11841 /* Location Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Model.swift"; sourceTree = "<group>"; };
@@ -148,7 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				D64DB03C2BFCA43C00773931 /* FoodView.swift */,
-				D64DB03E2BFCA4CF00773931 /* HCP */,
+				D679B0622C865EC9004A64FA /* FoodDetailView.swift */,
+				D679B0602C865E41004A64FA /* Food Model.swift */,
+				D6B7BDA42C879C1100E0FAD7 /* FoodSearch.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -156,6 +194,13 @@
 		D64DB0382BFBB83000773931 /* Housing */ = {
 			isa = PBXGroup;
 			children = (
+				D6AA1FEB2C8F895C0027C868 /* HousingView.swift */,
+				D6AA1FF22C8F89B70027C868 /* HousingViewModel.swift */,
+				D6AA20722C8FE0560027C868 /* HousingList */,
+				D6AA20742C8FE1250027C868 /* Data */,
+				D6AA1FF32C8F89BB0027C868 /* HousingListImageView.swift */,
+				D6AA1FF02C8F89B20027C868 /* HousingService.swift */,
+				D6AA1FF12C8F89B50027C868 /* Region.swift */,
 			);
 			path = Housing;
 			sourceTree = "<group>";
@@ -165,13 +210,6 @@
 			children = (
 			);
 			path = Transportation;
-			sourceTree = "<group>";
-		};
-		D64DB03E2BFCA4CF00773931 /* HCP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HCP;
 			sourceTree = "<group>";
 		};
 		D671689D2BA9EC81000C3CEC = {
@@ -240,9 +278,9 @@
 		D67168D52BAEDB73000C3CEC /* Clothing */ = {
 			isa = PBXGroup;
 			children = (
-				D67168D32BAED344000C3CEC /* ClothingView.swift */,
-				D67168F42BB34B47000C3CEC /* RoundImage.swift */,
-				D67168F62BB34C04000C3CEC /* MapView.swift */,
+				D6AA203A2C8FBA820027C868 /* View */,
+				D6AA203B2C8FBA920027C868 /* Model */,
+				D6AA203C2C8FBAA20027C868 /* Data */,
 				D6D63AB82BEB50DE00D176C4 /* HKI */,
 				D67168E12BB32D3B000C3CEC /* KL */,
 			);
@@ -260,6 +298,70 @@
 				D67168EE2BB33CF3000C3CEC /* KLSCData.json */,
 			);
 			path = KL;
+			sourceTree = "<group>";
+		};
+		D6AA203A2C8FBA820027C868 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D67168D32BAED344000C3CEC /* ClothingView.swift */,
+				D6AA1FFD2C8F9CBD0027C868 /* ClothingList.swift */,
+				D6AA20032C8F9D760027C868 /* ClothingRow.swift */,
+				D6AA20052C8F9DE10027C868 /* ClothingDetail.swift */,
+				D67168F42BB34B47000C3CEC /* RoundImage.swift */,
+				D67168F62BB34C04000C3CEC /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6AA203B2C8FBA920027C868 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6AA20012C8F9D220027C868 /* ClothingDataModel.swift */,
+				D6AA1FFF2C8F9CF60027C868 /* Clothing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6AA203C2C8FBAA20027C868 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6AA200A2C8F9EAC0027C868 /* clothingData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D6AA20722C8FE0560027C868 /* HousingList */ = {
+			isa = PBXGroup;
+			children = (
+				D6AA20752C8FE2720027C868 /* View */,
+				D6AA20732C8FE0D00027C868 /* Model */,
+			);
+			path = HousingList;
+			sourceTree = "<group>";
+		};
+		D6AA20732C8FE0D00027C868 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6AA1FEE2C8F89AD0027C868 /* List Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6AA20742C8FE1250027C868 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6AA1FED2C8F89AC0027C868 /* Housing Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D6AA20752C8FE2720027C868 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6AA20702C8FDC630027C868 /* HousingListItemView.swift */,
+				D6AA1FEF2C8F89AF0027C868 /* HousingListDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D6B7F8582C7A778500C11841 /* Model */ = {
@@ -391,6 +493,7 @@
 			files = (
 				D67168B12BA9EC85000C3CEC /* Preview Assets.xcassets in Resources */,
 				D67168AE2BA9EC85000C3CEC /* Assets.xcassets in Resources */,
+				D6AA200B2C8F9EAC0027C868 /* clothingData.json in Resources */,
 				D6D63AC22BEB550100D176C4 /* HKIData.json in Resources */,
 				D67168EF2BB33CF3000C3CEC /* KLSCData.json in Resources */,
 			);
@@ -418,29 +521,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D63ABC2BEB548B00D176C4 /* HKI.swift in Sources */,
+				D6B7BDA52C879C1100E0FAD7 /* FoodSearch.swift in Sources */,
 				D67168F52BB34B47000C3CEC /* RoundImage.swift in Sources */,
+				D6AA1FF82C8F89BC0027C868 /* HousingService.swift in Sources */,
 				D67168ED2BB33B95000C3CEC /* KLDataModel.swift in Sources */,
 				D6B7F8452C6B262F00C11841 /* GPSView.swift in Sources */,
 				D6D63ABE2BEB54AF00D176C4 /* HKIDataModel.swift in Sources */,
+				D6AA20712C8FDC630027C868 /* HousingListItemView.swift in Sources */,
 				D67168EB2BB33A7B000C3CEC /* KLSCList.swift in Sources */,
 				D6D63AC02BEB54D500D176C4 /* HKIRow.swift in Sources */,
 				D6D63AC42BEB551900D176C4 /* HKIDetail.swift in Sources */,
+				D6AA1FFB2C8F89BC0027C868 /* HousingListImageView.swift in Sources */,
 				D6B7F8572C7A730200C11841 /* RouteMapManager.swift in Sources */,
+				D6AA1FF72C8F89BC0027C868 /* HousingListDetailView.swift in Sources */,
 				D64DB0322BFB900500773931 /* ToiletView.swift in Sources */,
 				D6B7F8552C7A723E00C11841 /* RouteMapView.swift in Sources */,
 				D6B7F85C2C7A798B00C11841 /* Destination.swift in Sources */,
+				D6AA20002C8F9CF60027C868 /* Clothing.swift in Sources */,
+				D6AA1FF52C8F89BC0027C868 /* Housing Data.swift in Sources */,
 				D6B7F85E2C7A7A4400C11841 /* ToileLocation.swift in Sources */,
 				D64DB03D2BFCA43C00773931 /* FoodView.swift in Sources */,
+				D6AA1FF92C8F89BC0027C868 /* Region.swift in Sources */,
+				D6AA20042C8F9D760027C868 /* ClothingRow.swift in Sources */,
+				D6AA20062C8F9DE10027C868 /* ClothingDetail.swift in Sources */,
 				D67168F72BB34C04000C3CEC /* MapView.swift in Sources */,
+				D6AA20022C8F9D220027C868 /* ClothingDataModel.swift in Sources */,
+				D6AA1FFE2C8F9CBD0027C868 /* ClothingList.swift in Sources */,
 				D67168E92BB33918000C3CEC /* KLSC.swift in Sources */,
 				D62EF8292C7CF5D90094B1CB /* RouteLocationDetailView.swift in Sources */,
 				D67168AC2BA9EC82000C3CEC /* ContentView.swift in Sources */,
 				D62EF8272C7CF0D20094B1CB /* RouteLocationManager.swift in Sources */,
 				D6B7F8492C6B2EEF00C11841 /* Location Model.swift in Sources */,
 				D67168F32BB34A93000C3CEC /* KLSCDetail.swift in Sources */,
+				D6AA1FFA2C8F89BC0027C868 /* HousingViewModel.swift in Sources */,
+				D6AA1FEC2C8F895C0027C868 /* HousingView.swift in Sources */,
+				D6AA1FF62C8F89BC0027C868 /* List Model.swift in Sources */,
 				D6D63ABA2BEB545E00D176C4 /* HKIList.swift in Sources */,
 				D67168AA2BA9EC81000C3CEC /* Individual_ProjectApp.swift in Sources */,
+				D679B0612C865E41004A64FA /* Food Model.swift in Sources */,
 				D67168D42BAED344000C3CEC /* ClothingView.swift in Sources */,
+				D679B0632C865EC9004A64FA /* FoodDetailView.swift in Sources */,
 				D6B7F8472C6B277E00C11841 /* LocationView.swift in Sources */,
 				D67168F12BB34805000C3CEC /* KLSCIRow.swift in Sources */,
 			);
